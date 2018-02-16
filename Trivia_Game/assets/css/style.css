@@ -1,0 +1,95 @@
+body {
+   background-image: url("../images/starry_background.jpeg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   z-index: 0;
+}
+
+.wrapper {
+    max-width: 85%;
+    max-height: 85%;
+    margin: 0 auto;
+}
+
+.playArea {
+    position: relative;
+    top: 80px;
+    left: 8%;
+    border: 10px;
+    border-color: rgb(137, 7, 243);
+    border-style: solid;
+    height: 500px;
+    width: 80%;
+    margin: 0;
+}
+
+/* intro page */
+#introTitle {
+    font-family: 'Anton', sans-serif;
+    font-size: 150px;
+    text-align: center;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-transform: uppercase;
+    letter-spacing: 22px;
+    margin-top: 7px;
+}
+
+.startButton {
+    color: #fff;
+    background-color: rgb(137, 7, 243);
+    border-color: rgb(137, 7, 243);
+    height: 45px;
+    border-radius: 10px;
+    width: 50%;
+    position: absolute;
+    left: 24%;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+}
+
+/* trivia questions */
+#triviaTitle {
+    font-family: 'Anton', sans-serif;
+    font-size: 85px;
+    text-align: center;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-transform: uppercase;
+    letter-spacing: 22px;
+    margin-top: 7px;
+}
+
+#timeRemaining {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(137, 7, 243);
+}
+
+.question {
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.listArea {
+    list-style-position: inside;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.options {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+li:hover {
+    background-color: rgba(137, 7, 243, 0.418);
+}
