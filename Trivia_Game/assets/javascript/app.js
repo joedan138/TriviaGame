@@ -73,7 +73,7 @@ var timerId = setInterval(countdown, 1000);
 function countdown() {
   if (timeLeft == 0) {
     clearTimeout(timerId);
-    $("#triviaAndTime").html("");
+    // $("#triviaAndTime").html("");
     
     
   } else {
