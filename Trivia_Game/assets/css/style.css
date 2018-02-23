@@ -2,6 +2,7 @@ body {
    background-image: url("../images/starry_background.jpeg");
    background-repeat: no-repeat;
    background-size: auto;
+   background-repeat: repeat;
    z-index: 0;
 }
 
@@ -19,7 +20,7 @@ body {
     border: 10px;
     border-color: rgb(137, 7, 243);
     border-style: solid;
-    height: 500px;
+    height: auto;
     width: 80%;
     margin: 0;
 }
@@ -37,6 +38,7 @@ body {
     margin-top: 7px;
 }
 
+
 .startButton {
     color: #fff;
     background-color: rgb(137, 7, 243);
@@ -48,7 +50,26 @@ body {
     left: 24%;
     text-transform: uppercase;
     font-family: 'Anton', sans-serif;
-    letter-spacing: 10px;
+    letter-spacing: 6px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.startButton:hover,
+.startButton:focus {
+    border: 1px solid #db0dff;
+    background: #a40aff;
+    background: -moz-linear-gradient(top, #a40aff, #a408ff);
+    background: linear-gradient(to bottom, #a40aff, #a408ff);
+    color: #ffffff;
+    text-decoration: none;
+}
+.startButton:active {
+    background: #520591;
+    background: -moz-linear-gradient(top, #520591, #8907f3);
+    background: linear-gradient(to bottom, #520591, #8907f3);
 }
 
 /* trivia questions */
@@ -76,12 +97,13 @@ body {
     font-size: 45px;
     text-align: center;
     color: white;
+    margin-top: 70px;
+
 }
 
-.listArea {
-    list-style-position: inside;
-    list-style-type: none;
-    margin-top: 15px;
+
+.answerArea {
+    text-align: center;
 }
 
 .options {
@@ -91,6 +113,51 @@ body {
     color: white;
 }
 
-li:hover {
+
+label:hover {
     background-color: rgba(137, 7, 243, 0.418);
+    border-radius: 5px;
+}
+
+/* Final Score */
+#finalScore {
+    text-align: center;
+}
+.scoreBox {
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.tryAgain {
+    color: #fff;
+    background-color: rgb(137, 7, 243);
+    border-color: rgb(137, 7, 243);
+    height: 45px;
+    border-radius: 10px;
+    width: 50%;
+    left: 24%;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 27px;
+    letter-spacing: 6px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tryAgain:hover,
+.tryAgain:focus {
+    border: 1px solid #db0dff;
+    background: #a40aff;
+    background: -moz-linear-gradient(top, #a40aff, #a408ff);
+    background: linear-gradient(to bottom, #a40aff, #a408ff);
+    color: #ffffff;
+    text-decoration: none;
+}
+.tryAgain:active {
+    background: #520591;
+    background: -moz-linear-gradient(top, #520591, #8907f3);
+    background: linear-gradient(to bottom, #520591, #8907f3);
 }

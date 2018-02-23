@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Easy</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="triviaPage">
+            <h1 id="triviaTitle">space trivia</h1>
+            <div id="finalScore">
+                <h1 class="scoreBox">Correct Answers: <span id="finalCorrect"></span> </h1>
+                <h1 class="scoreBox">Incorrect Answers: <span id="finalIncorrect"></span> </h1>
+                <button class="tryAgain"> Try Again</button>
+            </div>
+            <div id="triviaAndTime">
+                <h3 id="timeRemaining">
+                    <span id="seconds">30</span> Seconds Remaining</h3>
+                <!-- Question #1 -->
+                <p class="question">How many Earths could fit inside the Sun?</p>
+                <div class="answerArea">
+                    <label class="radio-inline options">
+                        <input type="radio" name="q1" value="incorrect">10</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q1" value="incorrect">100</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q1" value="incorrect">1,000</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q1" value="correct">1,000,000</label>
+                </div>
+                <!-- Queestion #2 -->
+                <p class="question">Which planet does not have a solid surface?</p>
+                <div class="answerArea">
+                    <label class="radio-inline options">
+                        <input type="radio" name="q2" value="incorrect">Mercury</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q2" value="incorrect">Venus</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q2" value="correct">Neptune</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q2" value="incorrect">Pluto</label>
+                </div>
+                <!-- Question #3 -->
+                <p class="question">The highest mountain known to man is found where?</p>
+                <div class="answerArea">
+                    <label class="radio-inline options">
+                        <input type="radio" name="q3" value="correct">Vesta</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q3" value="incorrect">Earth</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q3" value="incorrect">Mars</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q3" value="incorrect">Haley's Comet</label>
+                </div>
+                <!-- Question #4 -->
+                <p class="question">The sunset on Mars appears as what color?</p>
+                <div class="answerArea">
+                    <label class="radio-inline options">
+                        <input type="radio" name="q4" value="incorrect">Red</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q4" value="correct">Blue</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q4" value="incorrect">Yellow</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q4" value="incorrect">Green</label>
+                </div>
+                <!-- Question #5 -->
+                <p class="question">The first Moon landing occurred in what year?</p>
+                <div class="answerArea">
+                    <label class="radio-inline options">
+                        <input type="radio" name="q5" value="incorrect">1957</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q5" value="correct">1969</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q5" value="incorrect">1974</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q5" value="incorrect">1975</label>
+                </div>
+                <!-- Question #6 -->
+                <p class="question">What is the second largest planet in our solar system?</p>
+                <div class="answerArea">
+                    <label class="radio-inline options">
+                        <input type="radio" name="q6" value="correct">Saturn</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q6" value="incorrect">Uranus</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q6" value="incorrect">Neptune</label>
+                    <label class="radio-inline options">
+                        <input type="radio" name="q6" value="incorrect">Mars</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- javascript links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/2.0_app.js"></script>
+</body>
+
+</html>
